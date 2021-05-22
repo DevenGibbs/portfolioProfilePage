@@ -1,0 +1,97 @@
+/*
+STYLE.CSS:
+Deven Gibbs's profile page style sheet!
+*/
+
+/*--- Overall General Styles ---*/
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  border: 1px solid #8A817C;
+}
+
+a:link {color: #8A817C; }
+a:visited {color: #463f3a; }
+a:hover {color: blue; }
+a:active {color: #d8e2dc; }
+
+/*--- Header Components ---*/
+  header {
+    background-color: #E0AFA0;
+    margin: auto;
+    padding: 20px;
+    color: #463F3A;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  nav {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/*--- Main Components ---*/
+  .image-circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-align: right;
+  }
+
+  main {
+    background-color: #F4F3EE;
+    color: #463F3A;
+    padding: 40px;    
+  }
+  
+  article {
+    float: right;
+    width: 75%
+  }
+/* ---Main > Contact Information Components--- */
+.palesilver {
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: #BCB8B1;
+  padding: 5px 10px;
+}  
+
+.middlegrey {
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: #8A817C;
+  padding: 5px 10px;
+}  
+
+.darklava {
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: #463F3A;
+  padding: 5px 10px;
+}  
+
+ol li {
+  margin-bottom: 10px;
+  list-style-position: inside;
+  color: white;
+  width: 6em;
+}
+
+/*--- Footer Components ---*/
+  footer {
+    background-color: #E0AFA0;
+    padding: 20px;
+  }
