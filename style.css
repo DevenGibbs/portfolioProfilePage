@@ -92,6 +92,6 @@ ol li {
 
 /*--- Footer Components ---*/
   footer {
-    background-color: #E0AFA0;
+    background: #E0AFA0 fixed center;
     padding: 20px;
   }
